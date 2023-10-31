@@ -75,6 +75,8 @@ h3 {
 .game-info {
  
     padding: 0 40px 20px 220px;
+    backdrop-filter: blur(5px);
+    padding-left: 20px;
     
     
 
@@ -99,15 +101,21 @@ h3.product-omschrijving {
 
 .extra-info {
     display: flex;
-    justify-content: space-evenly;
-    gap: 30px;
+    justify-content: center;
+    gap: 25px;
+    
     margin: 30px;
 
 }
 .punten {
     background-color: gainsboro;
-    padding: 0 20px;
-    
+    padding: 0 80px;
+    padding-bottom: 20px;
+    margin-bottom: 82px;
+    text-align: center;
+}
+.punten p {
+    font-family: Arial, Helvetica, sans-serif;
 }
 .extra-producten {
     background-color: gainsboro;
@@ -201,9 +209,11 @@ h4 {
 }
 .kenmerken {
     padding-right: 100px;
-    color: white;
-    text-shadow: black 0.1em 0.1em 0.2em;
+    color: black;
+    
     font-weight: bolder;
+    backdrop-filter: blur(5px);
+    margin-bottom: 150px;
 }
 .lijst {
 margin-left: -20px;
@@ -212,8 +222,8 @@ font-size: 0.9rem;
 }
 .lijst li {
     margin-bottom: 10px;
-    color: white;
-    text-shadow: black 0.1em 0.1em 0.2rem;
+    color: black;
+    
     font-weight: bold;
 }
 .endtro {
@@ -225,8 +235,8 @@ font-size: 0.9rem;
     font-family: Arial, Helvetica, sans-serif;
 }
 .lijst b{
-    color: black;
-    text-shadow: white 0.1em 0.1em 0.2em;
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em;
     font-weight: bold;
 }
 
@@ -251,5 +261,55 @@ font-size: 0.9rem;
     text-align: center;
 }
 .tag {
-    width: 10vw;
+    width: 13vw;
+    transition: all 1s ease-in-out;
+}
+.tag:hover {
+    transform:scale(1.0625); 
+}
+.informatie {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.zolep {
+    width: 20vw;
+    height: auto;
+    border-radius: 4px;
+    margin-top: 0;
+    margin-right: 50px;
+    
+}
+.rolep {
+margin-right: 50px;
+}
+.product {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+}
+.textinfo p {
+    font-family: arial;
+    margin: 0;
+    
+}
+.textinfo {
+    margin-bottom: 15px;
+    
+}
+.bestelv {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+}
+label {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.atje {
+    display: flex;
+    gap: 15px;
+    margin-right: 20px;
 }
