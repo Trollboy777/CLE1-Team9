@@ -69,7 +69,7 @@ h3 {
     gap: 50px;
     border-bottom: 3px solid black;
     width: 100%;
-    background-image:url(/images/vlietland.jpg)
+    background-image:url(../images/vlietland.jpg)
 }
 
 .game-info {
